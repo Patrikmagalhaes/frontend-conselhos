@@ -2,9 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { Quote, Wrapper } from "./QuoteSlider.style";
 
-
-
-
 const quotes = [
   "“E se o que eu quero for exatamente o que me assusta?”",
   "“Se eu ignorar o problema com estilo, ele vira mistério?“",
@@ -25,8 +22,8 @@ export const QuoteSlider: React.FC = () => {
       setTimeout(() => {
         setIndex((prev) => (prev + 1) % quotes.length); // troca frase
         setVisible(true); // aparece nova
-      }, 1000); // tempo do fadeOut
-    }, 4000); // tempo total entre trocas
+      },2000); // tempo do fadeOut
+    }, 5000); // tempo total entre trocas
 
     return () => clearInterval(interval);
   }, []);

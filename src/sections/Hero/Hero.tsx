@@ -16,6 +16,7 @@ import {
   Video,
 } from "./Hero.styles";
 import { QuoteSlider } from "../../components/QuoteSlider/QuoteSlider";
+import { QuotePascal } from "../../components/QuotePascal/QuotePascal";
 
 export const Hero = () => {
   return (
@@ -33,7 +34,8 @@ export const Hero = () => {
 
           <DivTextHero>
             <H2>
-              Dúvidas fazem parte<br />
+              Dúvidas fazem parte
+              <br />
               do caminho...
             </H2>
             <P>
@@ -53,10 +55,10 @@ export const Hero = () => {
           </ContainerBustos>
         </Content>
       </Banner>
-      <Gradient/>
-      <H2>Todo mundo tem perguntas. Nem todos tem coragem de fazê-las!</H2>
-      <P>A verdade é que viver dá trabalho. Pensar, então, nem se fala...</P>
-      <QuoteSlider/>
+      <Gradient />
+
+     <QuotePascal/>
+      <QuoteSlider />
     </>
   );
 };
