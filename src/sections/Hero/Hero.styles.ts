@@ -1,7 +1,5 @@
 import styled from "styled-components"
-import type { SubtitleProps } from "./types"
  
-
 export const Banner = styled.div`
   width:100%;
   height: 95vh;
@@ -24,7 +22,7 @@ export const Content = styled.div`
   justify-content: space-between;
   height:100%;
 `
-export const H1 = styled.h1`
+export const TitleHero = styled.h1`
   text-align: center;
   font-size: 5vw;
   padding-bottom: 10%;
@@ -34,15 +32,18 @@ export const H1 = styled.h1`
   right: 0;
   top: 2vh;
 `
-export const H2 = styled.h2`
+export const SubtitleHero = styled.h2`
   font-size: 8vw;
 `
-export const Subtitle = styled.p<SubtitleProps>`
-  font-size: ${({fontSize})=> fontSize || "5vw"};
-  padding-top: ${({paddingTop})=> paddingTop || "0"};
-  padding-bottom: ${({paddingBottom})=> paddingBottom || "0"};
-  color: ${({color})=> color || "#faf4e6"};
-  
+
+export const TextHero = styled.p`
+  font-size: 4vw;
+  margin-top: 10%;
+  line-height:30px;
+  letter-spacing: 1px;
+  @media(min-width: 724px){
+  margin-top: 5px;
+  }
 `
 export const ContainerTeias = styled.div`
   display: flex;
@@ -64,5 +65,6 @@ export const DivTextHero = styled.div`
     top: 15vh;
     width:100%;
     padding-left:5%;
+
 `
 

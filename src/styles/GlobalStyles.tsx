@@ -11,22 +11,21 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-@font-face {
-  font-family: 'OldLondon';
-src: url(${OldLondon}) format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  @font-face {
+    font-family: 'OldLondon';
+    src: url(${OldLondon}) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@font-face {
-  font-family: 'kent';
-src: url(${Kent}) format('opentype');
-  font-weight: normal;
-  font-style: normal;
+  @font-face {
+    font-family: 'kent';
+    src: url(${Kent}) format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
     
-
-  body {
+  body{
 
     background-color: #000;
     color: #fff;
@@ -42,10 +41,13 @@ src: url(${Kent}) format('opentype');
     font-family: 'OldLondon';
     color:#faf4e6;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
   }
-button{
- font-family: 'OldLondon';}
+    
+  button{
+    font-family: 'OldLondon';
+ }
+  
   p{ 
     font-family: 'kent';
     color:#faf4e6;

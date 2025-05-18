@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { Subtitle } from "../Hero/Hero.styles";
+
+
 
 export const ContainerMobile = styled.div`
  width:100%;
@@ -7,7 +8,7 @@ export const ContainerMobile = styled.div`
  padding-right:10px;
 `;
 
-export const Cta = styled(Subtitle)`
+export const Cta = styled.p`
  width:100%;
  padding-bottom:10%;
  padding-top:10%;

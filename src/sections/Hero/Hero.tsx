@@ -10,11 +10,13 @@ import {
   DivTextHero,
   FixedImage,
   Gradient,
-  H1,
-  H2,
-  Subtitle,
+  SubtitleHero,
+  TextHero,
+  TitleHero,
   Video,
 } from "./Hero.styles";
+
+
 
 
 export const Hero = () => {
@@ -27,17 +29,17 @@ export const Hero = () => {
         <Content>
           <ContainerTeias>
             <FixedImage src={TeihaLeft} />
-            <H1>Conselhos do Além</H1>
+            <TitleHero>Conselhos do Além</TitleHero>
             <FixedImage src={TeiaRigth} />
           </ContainerTeias>
 
           <DivTextHero>
-            <H2>
+            <SubtitleHero>
               Dúvidas fazem parte
               <br />
               do caminho...
-            </H2>
-            <Subtitle style={{marginTop:'10%'}}>
+            </SubtitleHero>
+            <TextHero>
               Em momentos de <br />
               transição, silêncio ou <br />
               angústia, recorrer ao <br />
@@ -46,7 +48,7 @@ export const Hero = () => {
               pode ser um gesto de <br />
               coragem.
               <br />
-            </Subtitle>
+            </TextHero>
           </DivTextHero>
 
           <ContainerBustos>
