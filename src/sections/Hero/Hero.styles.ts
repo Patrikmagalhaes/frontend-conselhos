@@ -40,6 +40,7 @@ export const H2 = styled.h2`
 export const Subtitle = styled.p<SubtitleProps>`
   font-size: ${({fontSize})=> fontSize || "5vw"};
   padding-top: ${({paddingTop})=> paddingTop || "0"};
+  padding-bottom: ${({paddingBottom})=> paddingBottom || "0"};
   color: ${({color})=> color || "#faf4e6"};
   
 `

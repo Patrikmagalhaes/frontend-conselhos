@@ -10,16 +10,17 @@ export const Introduction = () => {
       <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
         <QuoteSlider />
         <QuotePascal />
-        <Subtitle paddingTop="10%" color="#ff3131" fontSize="3.5vw">A verdade é que viver dá trabalho.
-          Pensar, então, nem se fala.
-          Mas perguntar é o primeiro passo
+        <Subtitle paddingBottom="10%" paddingTop="10%" color="#ff3131" fontSize="3.5vw">A verdade é que viver dá trabalho.<br/>
+          Pensar, então, nem se fala.<br/>
+          Mas perguntar é o primeiro passo<br/>
           mesmo que a resposta venha do além...
         </Subtitle>
-        <Button style={{ marginTop: '10%' }}>Fazer Pergunta</Button>
+        <Button style={{  marginBottom: '20%', marginTop:'10%'  }}>Fazer Pergunta</Button>
       </div>
+
+     <div style={{background:'linear-gradient(to top, #faf4e6, transparent)', height:'50px'}}></div>
+        <img style={{width:'100%'}} src={William} />
     
-        <img src={William} />
-     
     </ContainerMobile>
 
   );

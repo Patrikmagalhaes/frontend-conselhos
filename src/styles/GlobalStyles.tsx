@@ -44,7 +44,8 @@ src: url(${Kent}) format('opentype');
     font-weight: 300;
     letter-spacing: 2px;
   }
-
+button{
+ font-family: 'OldLondon';}
   p{ 
     font-family: 'kent';
     color:#faf4e6;
