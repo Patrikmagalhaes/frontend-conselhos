@@ -10,15 +10,12 @@ import {
   DivTextHero,
   FixedImage,
   Gradient,
+  ImageBustos,
   SubtitleHero,
   TextHero,
   TitleHero,
   Video,
 } from "./Hero.styles";
-
-
-
-
 export const Hero = () => {
   return (
     <>
@@ -32,7 +29,6 @@ export const Hero = () => {
             <TitleHero>Conselhos do Além</TitleHero>
             <FixedImage src={TeiaRigth} />
           </ContainerTeias>
-
           <DivTextHero>
             <SubtitleHero>
               Dúvidas fazem parte
@@ -50,14 +46,12 @@ export const Hero = () => {
               <br />
             </TextHero>
           </DivTextHero>
-
           <ContainerBustos>
-            <img style={{ width: "100%" }} src={Bustos} />
+            <ImageBustos src={Bustos} />
           </ContainerBustos>
         </Content>
       </Banner>
       <Gradient />
-
     </>
   );
 };

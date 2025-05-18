@@ -1,5 +1,5 @@
 import styled from "styled-components"
- 
+
 export const Banner = styled.div`
   width:100%;
   height: 95vh;
@@ -31,18 +31,32 @@ export const TitleHero = styled.h1`
   left: 0;
   right: 0;
   top: 2vh;
+
+  @media(min-width: 1024px ){
+    font-size: 2vw;
+    padding-top: 0%;
+  }
 `
 export const SubtitleHero = styled.h2`
   font-size: 8vw;
-`
 
+    @media(min-width: 1024px ){
+    font-size: 4vw;
+  }
+`
 export const TextHero = styled.p`
-  font-size: 4vw;
+  font-size: 3vh;
   margin-top: 10%;
-  line-height:30px;
   letter-spacing: 1px;
+  line-height: 1.2em;
   @media(min-width: 724px){
-  margin-top: 5px;
+  margin-top: 5%;
+  font-size: 3vw;
+
+    @media(min-width: 1024px ){
+    font-size: 2vw;
+    margin-top: 2%;
+  }
   }
 `
 export const ContainerTeias = styled.div`
@@ -52,19 +66,28 @@ export const ContainerTeias = styled.div`
 `
 export const FixedImage = styled.img`
   Width: 35%;
+     @media(min-width: 1024px ){
+     Width: 20%;
+  }
 `
 export const ContainerBustos = styled.div`
   background: linear-gradient(to top, #faf4e6, transparent);
+  display:flex;
+  justify-content:center;
+
+`
+export const ImageBustos = styled.img`
+
+  
 `
 export const Gradient = styled.div`
   background: linear-gradient(to bottom, #faf4e6, transparent);
-   height:50px;
+  height:50px;
 `
 export const DivTextHero = styled.div`
-    position: absolute;
-    top: 15vh;
-    width:100%;
-    padding-left:5%;
-
+  position: absolute;
+  top: 15vh;
+  width:100%;
+  padding-left:5%;
 `
 
