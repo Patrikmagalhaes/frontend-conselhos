@@ -37,7 +37,7 @@ export const Hero = () => {
               <br />
               do caminho...
             </H2>
-            <Subtitle>
+            <Subtitle style={{marginTop:'10%'}}>
               Em momentos de <br />
               transição, silêncio ou <br />
               angústia, recorrer ao <br />
