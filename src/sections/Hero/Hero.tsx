@@ -12,11 +12,10 @@ import {
   Gradient,
   H1,
   H2,
-  P,
+  Subtitle,
   Video,
 } from "./Hero.styles";
-import { QuoteSlider } from "../../components/QuoteSlider/QuoteSlider";
-import { QuotePascal } from "../../components/QuotePascal/QuotePascal";
+
 
 export const Hero = () => {
   return (
@@ -38,7 +37,7 @@ export const Hero = () => {
               <br />
               do caminho...
             </H2>
-            <P>
+            <Subtitle>
               Em momentos de <br />
               transição, silêncio ou <br />
               angústia, recorrer ao <br />
@@ -47,7 +46,7 @@ export const Hero = () => {
               pode ser um gesto de <br />
               coragem.
               <br />
-            </P>
+            </Subtitle>
           </DivTextHero>
 
           <ContainerBustos>
@@ -57,8 +56,6 @@ export const Hero = () => {
       </Banner>
       <Gradient />
 
-     <QuotePascal/>
-      <QuoteSlider />
     </>
   );
 };

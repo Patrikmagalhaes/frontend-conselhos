@@ -1,8 +1,10 @@
 import styled from "styled-components"
+import type { SubtitleProps } from "./types"
+ 
 
 export const Banner = styled.div`
   width:100%;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   position: relative;
 `
@@ -35,9 +37,11 @@ export const H1 = styled.h1`
 export const H2 = styled.h2`
   font-size: 8vw;
 `
-export const P = styled.p`
-  font-size: 5vw;
-  padding-top: 5%;
+export const Subtitle = styled.p<SubtitleProps>`
+  font-size: ${({fontSize})=> fontSize || "5vw"};
+  padding-top: ${({paddingTop})=> paddingTop || "0"};
+  color: ${({color})=> color || "#faf4e6"};
+  
 `
 export const ContainerTeias = styled.div`
   display: flex;
